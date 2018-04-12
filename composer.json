@@ -1,0 +1,22 @@
+{
+  "name": "ttrolololll/tello-php",
+  "description": "A PHP wrapper to interact with the Tello Drone.",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Jonathan Yang",
+      "email": "jonathan@voyagerinnovation.com"
+    }
+  ],
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Tello\\": "tello/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.23"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
